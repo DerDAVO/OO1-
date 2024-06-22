@@ -69,3 +69,19 @@
 2024-06-22 14:52:25,872 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
 2024-06-22 14:52:42,848 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-06-22 14:52:42,848 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-22 14:52:42,851 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:52:42,852 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-22 14:55:03,931 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:03,932 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-22 14:55:03,934 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:03,935 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-22 14:55:15,672 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:15,672 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-22 14:55:15,676 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:15,676 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-22 14:55:24,659 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:24,659 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-22 14:55:24,664 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:24,665 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-22 14:55:56,404 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 14:55:56,409 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
