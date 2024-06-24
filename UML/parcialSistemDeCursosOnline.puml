@@ -1,0 +1,31 @@
+@startuml SistemaDeCursosOnline
+class SistemaDeCursosOnline{
+
+}
+SistemaDeCursosOnline-->"0..*"CursoOnline:-cursos
+SistemaDeCursosOnline-->"0..*"Usuario:-usuarios
+class CursoOnline{
+
+}
+CursoOnline --> "0..*"Valoracion:-valoraciones
+class CursoOnlineGrabado{
+
+}
+CursoOnlineGrabado--|>CursoOnline
+class CursoOnlineEnVivo{
+
+}
+CursoOnlineEnVivo--|> CursoOnline
+
+class Valoracion{
+
+}
+class Inscripcion{
+
+}
+Inscripcion --> "1"CursoOnline:-curso
+class Usuario{
+
+}
+Usuario --> "0..*"Inscripcion:-inscripciones
+@enduml
