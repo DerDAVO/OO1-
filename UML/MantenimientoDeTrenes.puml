@@ -1,0 +1,18 @@
+@startuml ApliacacionDeSeguimientoDeMantenimientoDeTrenes
+class Modelo{
+
+}
+class Tren{
+    -numeroDeSerie:integer
+    -marca:String
+    -fechaDeIncorporacion:Date
+    -kilometrajeInicial:integer
+}
+Tren-->"1"Modelo:modelo
+class PlanDeMantenimiento{
+    -version:integer
+}
+PlanDeMantenimiento-->"0..*"Modelo:-modelos
+
+
+@enduml

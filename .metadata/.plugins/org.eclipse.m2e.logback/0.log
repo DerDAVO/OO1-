@@ -150,3 +150,10 @@
 2024-06-24 18:35:00,570 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
 2024-06-24 18:35:02,730 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-06-24 18:35:02,730 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-24 18:35:02,734 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-24 18:35:02,734 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-24 19:00:34,375 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-24 19:00:34,376 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\main\resources
+2024-06-24 19:00:34,379 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-24 19:00:34,380 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\Facultad\Github-DerDAVO\OO1-Workspace\OO1\src\test\resources
+2024-06-26 11:30:24,393 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

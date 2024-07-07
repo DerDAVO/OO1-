@@ -1,5 +1,6 @@
 package parcialSistemaDeCursosOnline;
 
-public class CursoOnlineGrabado {
-
+public class CursoOnlineGrabado extends CursoOnline{
+	private double precio;
+	
 }

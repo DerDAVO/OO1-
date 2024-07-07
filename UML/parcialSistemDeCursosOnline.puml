@@ -1,31 +1,50 @@
 @startuml SistemaDeCursosOnline
 class SistemaDeCursosOnline{
-
+    +SistemaDeCursosOnline()
+    +registrarUsuario(usuario:Usuario)
+    +cursosConMejorValoracion():Curso[*]
 }
 SistemaDeCursosOnline-->"0..*"CursoOnline:-cursos
 SistemaDeCursosOnline-->"0..*"Usuario:-usuarios
-class CursoOnline{
-
+abstract class CursoOnline{
+    -nombre:String
+    -descripcion:String
+    +CursoOnline(nombre:String,descripcion:String)
+    +calcularValoracion():real
 }
 CursoOnline --> "0..*"Valoracion:-valoraciones
 class CursoOnlineGrabado{
-
+    +CursoOnlineGrabado()
+    +CursoOnlineGrabado(precio:real)
 }
 CursoOnlineGrabado--|>CursoOnline
 class CursoOnlineEnVivo{
-
+    -cantidadDeCupos:integer
+    -fechaDeInicio:date
+    -cantidadMinimaDeInscriptos:integer
+    -porcentajeDeBono:real
+    +CursoOnlineGrabado(cantidadDeCupos:integer,fechaDeInicio:date,CantidadMinimaDeInscriptos:integer,porcentajeDeBono:real)
 }
 CursoOnlineEnVivo--|> CursoOnline
 
 class Valoracion{
-
+    -puntaje:integer
+    -fecha:date
+    -comentario:String
 }
 class Inscripcion{
-
+    +precioDelCurso:real
+    +Inscripcion(precioDelCurso:real,unCurso:Curso)
 }
 Inscripcion --> "1"CursoOnline:-curso
 class Usuario{
-
+    -nombre:String
+    -email:String
+    -clave:String
+    +Usuario(nombre:String,email:String,clave:String)
+    +inscribirseAUnCurso(unCurso:Curso)
+    +valorarUnCurso(curso:Curso,valoracion:Valoracion)
+    +misCursos():Incripcion[*]
 }
 Usuario --> "0..*"Inscripcion:-inscripciones
 @enduml
